@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: xlist
     env: docker
     repo: https://github.com/mzh2077/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
